@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .zoom img {
+        @apply transition ease-in-out duration-500 scale-[1.1];
+    }
+}
