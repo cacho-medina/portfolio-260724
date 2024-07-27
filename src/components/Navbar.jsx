@@ -10,7 +10,7 @@ function Navbar() {
             <div className="flex justify-end px-4 py-2 md:hidden">
                 <label
                     htmlFor="sidebar-active"
-                    className="inline-block md:hidden"
+                    className="inline-block burger md:hidden"
                 >
                     <img src="/menu.svg" alt="" className="w-10" />
                 </label>
