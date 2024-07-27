@@ -113,12 +113,28 @@ function Main() {
                                 </div>
                                 <div className="flex justify-between items-center rounded-b-md py-4 px-2 bg-[#FAF5FF] text-black">
                                     <div>
-                                        <a href="http://" className="font-bold">
+                                        <a
+                                            href={item.link}
+                                            className="font-bold transition hover:underline"
+                                        >
                                             {item.nombre}
                                         </a>
                                     </div>
-                                    <div className="bg-[#003049] px-4 py-1 rounded-md text-white font-semibold">
-                                        <a href="http://">Github</a>
+                                    <div
+                                        className={`${
+                                            item.owner === "Koi Studio"
+                                                ? "bg-[#fb5607]"
+                                                : "bg-[#6366F1]"
+                                        } px-4 py-1 rounded-md text-white font-semibold`}
+                                    >
+                                        {/* <span className="cursor-pointer">
+                                            {item.owner}
+                                        </span> */}
+                                        <img
+                                            src={item.icon}
+                                            alt={item.owner}
+                                            className="w-8"
+                                        />
                                     </div>
                                 </div>
                             </article>

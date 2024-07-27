@@ -4,6 +4,6 @@
 
 @layer components {
     .zoom img {
-        @apply transition ease-in-out duration-500 scale-[1.1];
+        @apply transition ease-linear duration-100 scale-[1.05];
     }
 }
