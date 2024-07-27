@@ -24,12 +24,21 @@ html {
     border-color: unset;
 }
 .burger {
-    animation: enhance-header linear both;
+    animation: enhance-header-responsive linear both;
     animation-timeline: scroll(root);
     animation-range: 0 150px;
     border-color: unset;
 }
 @keyframes enhance-header {
+    to {
+        background: #7886a074;
+        border: none;
+        backdrop-filter: blur(10px);
+        transform: translateY(10px);
+        border-radius: 20px;
+    }
+}
+@keyframes enhance-header-responsive {
     to {
         background: #7886a074;
         border: none;
