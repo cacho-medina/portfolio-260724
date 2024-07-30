@@ -5,7 +5,7 @@ export default [
         owner: "Joaquin Medina",
         img: "/projects/rh.png",
         link: "https://rolling-hotel.vercel.app/",
-        icon: "/icono.png",
+        icon: "/code.svg",
         color: "#e63946",
     },
     {
@@ -14,7 +14,7 @@ export default [
         owner: "Joaquin Medina",
         img: "/projects/blog.png",
         link: "https://blog-de-recetas.vercel.app/",
-        icon: "/icono.png",
+        icon: "/code.svg",
         color: "#e63946",
     },
     {
@@ -23,7 +23,7 @@ export default [
         owner: "Koi Studio",
         img: "/projects/carretas.png",
         link: "https://lascarretashostal.com/",
-        icon: "/iconKoi.png",
+        icon: "/logoWhite.png",
         color: "#fb5607",
     },
     /* {
@@ -41,7 +41,7 @@ export default [
         owner: "Koi Studio",
         img: "/projects/ssit.png",
         link: "https://ssitgroup.com/",
-        icon: "/iconKoi.png",
+        icon: "/iconKoiWhite.png",
         color: "#fb5607",
     },
     {
@@ -50,7 +50,7 @@ export default [
         owner: "Koi Studio",
         img: "/projects/bs.png",
         link: "http://www.boulevardsursrl.com.ar/",
-        icon: "/iconKoi.png",
+        icon: "/logoWhite.png",
         color: "#fb5607",
     },
     {
@@ -59,7 +59,7 @@ export default [
         owner: "Koi Studio",
         img: "/projects/la-pionera.png",
         link: "https://www.lapionerayerba.com/",
-        icon: "/iconKoi.png",
+        icon: "/iconKoiWhite.png",
         color: "#fb5607",
     },
 ];

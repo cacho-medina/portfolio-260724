@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <header className="sticky top-0 z-10">
+        <header className="sticky top-0 z-10" data-aos="fade-down">
             <div className="bg-[#1d3557] pt-3"></div>
             <input
                 type="checkbox"
@@ -15,11 +15,11 @@ function Navbar() {
                     <img src="/menu.svg" alt="" className="w-10" />
                 </label>
             </div>
-            <nav className="peer-checked:right-0 transition-all duration-300 ease-out fixed top-0 bottom-0 -right-full z-50 w-[90%] sm:w-1/2 sm:shadow bg-[#1d3557] py-6 pl-4 md:hidden">
+            <nav className="peer-checked:right-0 transition-all duration-300 ease-out fixed top-0 bottom-0 -right-full z-50 w-2/3 sm:w-1/2 sm:shadow bg-[#1d3557] py-6 pl-4 md:hidden">
                 <label htmlFor="sidebar-active" className="md:hidden">
                     <img src="/close.svg" alt="" className="w-8" />
                 </label>
-                <ul className="flex flex-col items-start justify-center gap-8 text-white font-semibold pt-10 pl-8 text-xl">
+                <ul className="flex flex-col items-start justify-center gap-8 text-white font-semibold pt-10 pl-4 text-xl">
                     <li className="transition hover:-translate-y-1">
                         <a href="#home">Inicio</a>
                     </li>
