@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <header className="sticky top-0 z-10" data-aos="fade-down">
+        <header className="sticky top-0 z-10">
             <div className="bg-[#1d3557] pt-3"></div>
             <input
                 type="checkbox"
@@ -45,7 +45,11 @@ function Navbar() {
                     </li>
                 </ul>
             </nav>
-            <nav className="hidden nav py-4 bg-[#1d3557] md:flex justify-center items-center w-[95%] md:w-[70%] lg:w-1/2 xl:w-[40%]">
+            <nav
+                data-aos="fade-down"
+                data-aos-duration="200"
+                className="hidden nav py-4 bg-[#1d3557] md:flex justify-center items-center w-[95%] md:w-[70%] lg:w-1/2 xl:w-[40%]"
+            >
                 <ul className="flex items-center justify-center gap-4 md:gap-6 text-white font-semibold">
                     <li className="transition hover:-translate-y-1">
                         <a href="#home">Inicio</a>
