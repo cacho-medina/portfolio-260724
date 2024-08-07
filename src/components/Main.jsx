@@ -19,10 +19,10 @@ function Main() {
                     data-aos="fade-up"
                     data-aos-duration="200"
                 >
-                    Desarrollador Fullstack
+                    Desarrollador Frontend
                 </h2>
                 <div
-                    className="mt-12 flex gap-2 sm:gap-4"
+                    className="mt-12 flex items-center gap-2 sm:gap-4"
                     data-aos="fade-up"
                     data-aos-duration="250"
                 >
@@ -31,6 +31,18 @@ function Main() {
                         className="outline outline-pink-600 rounded-md outline-2 py-2 px-4 bg-pink-500/50 flex items-center gap-2 transition hover:-translate-y-1 hover:bg-pink-600 lg:text-xl"
                     >
                         <span>Contactame</span>
+                        <img
+                            src="/message.svg"
+                            alt="send me a message"
+                            className="w-5 lg:w-6"
+                        />
+                    </a>
+                    <a
+                        target="_blank"
+                        href="/joaquin-medina.pdf"
+                        className="outline outline-azulDark rounded-md outline-2 py-2 px-4 bg-azulDarker flex items-center gap-2 transition hover:-translate-y-1 hover:bg-azulDark lg:text-xl"
+                    >
+                        <span>Descargá mi cv</span>
                         <img
                             src="/message.svg"
                             alt="send me a message"

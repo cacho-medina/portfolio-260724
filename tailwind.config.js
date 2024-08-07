@@ -8,6 +8,7 @@ export default {
                 azulDark: "#1d3557",
                 azulLight: "#778da9",
                 rosa: "#FF006E",
+                azulDarker: "#00091D",
             },
         },
     },
